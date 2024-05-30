@@ -1,0 +1,67 @@
+.container00 {
+  &.container08 {
+    background-image: url(../../images/humanSpace/01.jpg);
+  }
+  &.container09 {
+    background-image: url(../../images/humanSpace/02.jpg);
+  }
+  &.container10 {
+    background-image: url(../../images/humanSpace/03.jpg);
+  }
+  &.container11 {
+    background-image: url(../../images/humanSpace/04.jpg);
+  }
+  &.container12 {
+    background-image: url(../../images/humanSpace/05.jpg);
+  }
+}
+
+.titleHumanSpace {
+  font-size: 120px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.subTitleHumanSpace {
+  font-size: 30px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 514;
+}
+
+.DivulgDesc {
+  background-color: black;
+  height: 40vh;
+  font-size: 20px;
+
+  a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid white;
+
+    &:hover {
+      border-bottom: 1px solid $link-hover;
+      color: $link-hover;
+    }
+  }
+}
+
+.infoContRight {
+  padding-top: 190px;
+  display: grid;
+  align-items: center;
+  justify-content: right;
+}
+
+.infoContLeft {
+  padding-top: 200px;
+}
+
+.Titlecont {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.Titlesm {
+  font-size: 16px;
+  font-weight: 300;
+}
